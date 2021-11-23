@@ -1,0 +1,113 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	display: flex;
+	align-content:flex-start;
+	margin: 50px;
+}
+.title{
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	font-size: 3rem;
+	text-shadow: 3px 5px 10px rgba(0, 0, 0, .2);
+	margin: 0;
+	margin-right: 50px;
+	color: white;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+.selectAndButton{
+	flex-direction: column;
+}
+body {
+	background: #dcdcdc;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 1.25rem;
+}
+
+.search{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+input{
+	width: 600px;
+	height: 35px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px 5px rgb(36, 181, 238);
+	text-align: center;
+	margin-right: 30px;
+}
+button{
+	width: 100px;
+	height: 35px;
+	margin: 20px;
+	border-radius: 10px;
+	background: rgb(14, 111, 190);
+	color: white;
+}
+.flex {
+	display:flex;
+	justify-content:center;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.flex > div {
+	margin: 20px;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 25%;
+	justify-content: center;
+	align-self: flex-start;
+	
+}
+.heading{
+	min-height: 120px;
+}
+img{
+	width: 100%;
+}
+
+.containter_film{
+	display: flex;
+	width: 1100px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.poster{
+	margin-right: 30px;
+	flex-basis: 30%;
+}
+.descr{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis:70%;
+}
+.descrLine{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 10px;
+}
+.descrName{
+	min-width: 300px;
+}
